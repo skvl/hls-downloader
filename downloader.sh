@@ -9,7 +9,7 @@ INPUT_FILE=${1}
 # done <${LIST}
 
 mapfile -t urls < ${INPUT_FILE}
-idx=3
+idx=1
 
 for i in "${urls[@]}"
 do
